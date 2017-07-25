@@ -6,7 +6,9 @@
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	font-family: "Trebuchet MS";
+	color:darkslategrey;
+	background-color: ghostwhite;
 }
 
 
@@ -19,7 +21,7 @@ section{
 }
 
 header{
-	background-color: lightblue;
+/*	background-color: lightblue;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -27,10 +29,11 @@ header{
 nav{
 	width: 100%;
 	height: 60px;
+
     background: -webkit-linear-gradient(lightblue, white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(lightblue, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(lightblue, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(lightblue, white); /* Standard syntax */
+    background: linear-gradient(gainsboro, ghostwhite); /* Standard syntax */
 
 }
 
@@ -41,7 +44,7 @@ nav a, nav h3{
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
-	color: black;
+	color: darkslategrey;
 }
 
 nav a:hover{
@@ -50,6 +53,7 @@ nav a:hover{
 
 h1{
 	font-size: 100px;
+	font-family: "Trebuchet MS";
 
 }
 
@@ -58,13 +62,9 @@ h1{
 	
 	width: 100%;
 	height: 800px;
-	background-color:lightblue;
+/*	background-color:lightblue;*/
 	text-align: center;
- background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, lightblue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, lightblue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, lightblue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, lightblue); /* Standard syntax */
+
 
 
 }
@@ -87,6 +87,7 @@ h1{
 .g-30{
 	width: 30%;
 	float: left;
+	padding-right: 20px;
 }
 
 .g-70{
@@ -100,5 +101,5 @@ h1{
 }
 
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding-right: 20px; /* I add this to cells to add a little padding*/
 }
