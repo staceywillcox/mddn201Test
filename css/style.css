@@ -9,6 +9,7 @@ body{
 	font-family: "Trebuchet MS";
 	color:darkslategrey;
 	background-color: ghostwhite;
+	
 }
 
 
@@ -18,6 +19,7 @@ section{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
 }
 
 header{
@@ -54,18 +56,17 @@ nav a:hover{
 h1{
 	font-size: 100px;
 	font-family: "Trebuchet MS";
-
 }
 
+#network{
+	opacity: 0.09;
+}
 
 #titlepage{
 	
 	width: 100%;
 	height: 800px;
-/*	background-color:lightblue;*/
 	text-align: center;
-
-
 
 }
 
